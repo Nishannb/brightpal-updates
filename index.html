@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPal Updates</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        .section {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .file-list {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        .file-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f3f4;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-name {
+            font-weight: 600;
+            color: #1a73e8;
+        }
+        .file-size {
+            color: #5f6368;
+            font-size: 0.9em;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #6c757d;
+            border-top: 1px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 BrightPal Updates</h1>
+        <p>Auto-update repository for BrightPal desktop application</p>
+    </div>
+
+    <div class="section">
+        <h2>📋 Current Status</h2>
+        <div class="status success">✅ Repository Active</div>
+        <p>This repository hosts auto-update files for BrightPal. Updates are automatically deployed via GitHub Pages.</p>
+    </div>
+
+    <div class="section">
+        <h2>📁 Available Files</h2>
+        <div class="file-list">
+            <div class="file-item">
+                <div class="file-name">latest.json</div>
+                <div class="file-size">Update metadata and version information</div>
+            </div>
+            <div class="file-item">
+                <div class="file-name">release-notes.json</div>
+                <div class="file-size">Detailed changelog for all versions</div>
+            </div>
+            <div class="file-item">
+                <div class="file-name">BrightPal AI_*.dmg</div>
+                <div class="file-size">macOS installer packages</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔗 Direct Links</h2>
+        <ul>
+            <li><a href="./updates/latest.json">Latest Update Info</a></li>
+            <li><a href="./updates/release-notes.json">Release Notes</a></li>
+            <li><a href="./updates/">Updates Directory</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📚 Documentation</h2>
+        <p>For detailed information about this repository and how to use it, see the <a href="./README.md">README.md</a> file.</p>
+    </div>
+
+    <div class="footer">
+        <p>Last updated: <span id="last-updated"></span></p>
+        <p>BrightPal Updates Repository</p>
+    </div>
+
+    <script>
+        // Set last updated time
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+        
+        // Check if updates directory is accessible
+        fetch('./updates/latest.json')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ Updates directory is accessible');
+                } else {
+                    console.log('⚠️ Updates directory not accessible');
+                }
+            })
+            .catch(error => {
+                console.log('❌ Error accessing updates:', error);
+            });
+    </script>
+</body>
+</html>
