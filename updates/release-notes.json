@@ -1,0 +1,23 @@
+{
+  "0.2.2": {
+    "version": "0.2.2",
+    "date": "2024-01-15",
+    "changes": [
+      "Fixed PDF rendering issues",
+      "Improved performance on large files",
+      "Added dark mode support",
+      "Enhanced translation features",
+      "Bug fixes and stability improvements"
+    ]
+  },
+  "0.2.1": {
+    "version": "0.2.1",
+    "date": "2024-01-01",
+    "changes": [
+      "Initial release with core features",
+      "PDF and EPUB support",
+      "AI-powered translation",
+      "Cross-platform compatibility"
+    ]
+  }
+}

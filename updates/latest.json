@@ -1,0 +1,22 @@
+{
+  "version": "0.2.2",
+  "notes": "Bug fixes and performance improvements",
+  "pub_date": "2024-01-15T00:00:00Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.2.2_x64.dmg",
+      "signature": "placeholder_signature_here",
+      "size": 0
+    },
+    "darwin-aarch64": {
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.2.2_arm64.dmg",
+      "signature": "placeholder_signature_here",
+      "size": 0
+    },
+    "windows-x86_64": {
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.2.2_x64-setup.exe",
+      "signature": "placeholder_signature_here",
+      "size": 0
+    }
+  }
+}
