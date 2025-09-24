@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPal AI - Download</title>
+    <meta name="description" content="Download BrightPal AI - Your AI-powered PDF reader with advanced annotation and note-taking features">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .download-section {
+            margin: 2rem 0;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            margin: 0.5rem;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .download-btn.secondary {
+            background: #f8f9fa;
+            color: #666;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-btn.secondary:hover {
+            background: #e9ecef;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .version-info {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .version-info h3 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .version-info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .version-info li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e9ecef;
+            color: #666;
+        }
+
+        .version-info li:last-child {
+            border-bottom: none;
+        }
+
+        .coming-soon {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1rem 0;
+            color: #856404;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .feature {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e9ecef;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .download-btn {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">BP</div>
+        
+        <h1>BrightPal AI</h1>
+        <p class="subtitle">Your AI-powered PDF reader with advanced annotation and note-taking features</p>
+        
+        <div class="download-section">
+            <a href="updates/BrightPal AI_0.9.75_universal.dmg" class="download-btn" download>
+                📱 Download for macOS (Universal)
+            </a>
+            <a href="updates/BrightPal AI_0.9.75_aarch64.dmg" class="download-btn secondary" download>
+                🍎 Download for Apple Silicon
+            </a>
+        </div>
+
+        <div class="coming-soon">
+            <strong>Windows version coming soon!</strong> We're working hard to bring BrightPal AI to Windows users.
+        </div>
+
+        <div class="version-info">
+            <h3>What's New in v0.9.75</h3>
+            <ul>
+                <li>✅ Fixed Ollama connection issue in production builds</li>
+                <li>✅ Updated Content Security Policy for localhost connections</li>
+                <li>✅ Fixed PDF loading bounce-back issue on first app launch</li>
+                <li>✅ Improved annotation system with automatic quote insertion</li>
+                <li>✅ Enhanced AI chat interface with model dropdown</li>
+                <li>✅ Fixed navigation issues preventing proper PDF opening</li>
+                <li>✅ Improved rich text editor functionality</li>
+                <li>✅ Fixed auto-update system for development mode</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h4>AI-Powered</h4>
+                <p>Chat with your documents using advanced AI models</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📝</div>
+                <h4>Rich Annotations</h4>
+                <p>Take notes with rich text editing and formatting</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔍</div>
+                <h4>Smart Search</h4>
+                <p>Find information quickly with intelligent search</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 BrightPal AI. All rights reserved.</p>
+            <p>Version 0.9.75 • <a href="updates/release-notes.json" style="color: #667eea;">Release Notes</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Add download tracking
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                // Track download (you can add analytics here)
+                console.log('Download started:', this.href);
+            });
+        });
+
+        // Auto-update version info from latest.json
+        fetch('updates/latest.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.version) {
+                    document.querySelector('.footer p:last-child').innerHTML = 
+                        `Version ${data.version} • <a href="updates/release-notes.json" style="color: #667eea;">Release Notes</a>`;
+                }
+            })
+            .catch(err => console.log('Could not fetch version info:', err));
+    </script>
+</body>
+</html>
