@@ -1,20 +1,20 @@
 {
-  "version": "0.1.0",
-  "notes": "Update to version 0.1.0 - see release-notes.json for detailed changelog",
-  "pub_date": "2025-09-25T05:07:14Z",
+  "version": "0.9.78",
+  "notes": "Update to version 0.9.78 - see release-notes.json for detailed changelog",
+  "pub_date": "2025-09-25T05:07:30Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.1.0_universal.dmg",
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.9.78_universal.dmg",
       "signature": "placeholder_macos_signature",
-      "size": 26103826
+      "size": 0
     },
     "darwin-aarch64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.1.0_aarch64.dmg",
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.9.78_aarch64.dmg",
       "signature": "placeholder_macos_signature",
       "size": 0
     },
     "windows-x86_64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.1.0_x64-setup.exe",
+      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.9.78_x64-setup.exe",
       "signature": "placeholder_windows_signature",
       "size": 0
     }
