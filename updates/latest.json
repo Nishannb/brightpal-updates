@@ -1,7 +1,7 @@
 {
-  "version": "0.9.82",
-  "notes": "Test update for auto-updater - signature verification disabled",
-  "pub_date": "2025-09-25T06:30:00Z",
+  "version": "0.9.83",
+  "notes": "Test update with improved error handling - signature verification disabled",
+  "pub_date": "2025-09-25T07:30:00Z",
   "platforms": {
     "darwin-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.82-universal.app.tar.gz",
