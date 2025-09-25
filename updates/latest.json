@@ -1,18 +1,18 @@
 {
-  "version": "0.9.86",
-  "notes": "Test update for auto-updater functionality - renamed from 0.9.85",
-  "pub_date": "2025-09-25T11:00:00Z",
+  "version": "0.9.87",
+  "notes": "Updated version for testing auto-updater functionality",
+  "pub_date": "2025-09-26T02:15:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.86-universal.app.tar.gz",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.87-universal.app.tar.gz",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IEJyaWdodFBhbCBBSSAwLjkuODYgdXBkYXRlCm80L0Zmak1PNVc5QnhlbUs5b0x6OG1rYXdxYlVrbHI2cWRrWCtrc2l2VVY1ek94bVpZZHBhaGhseEp5VTl1RUh6VnN3Wml1c1c4RWVkTGJZY2NhN0FRPT0K"
     },
     "darwin-aarch64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.86-universal.app.tar.gz",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.87-universal.app.tar.gz",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IEJyaWdodFBhbCBBSSAwLjkuODYgdXBkYXRlCm80L0Zmak1PNVc5QnhlbUs5b0x6OG1rYXdxYlVrbHI2cWRrWCtrc2l2VVY1ek94bVpZZHBhaGhseEp5VTl1RUh6VnN3Wml1c1c4RWVkTGJZY2NhN0FRPT0K"
     },
     "windows-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.86_x64-setup.exe",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.87_x64-setup.exe",
       "signature": "placeholder_windows_signature"
     }
   }

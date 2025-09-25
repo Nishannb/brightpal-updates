@@ -1,5 +1,15 @@
 {
   "releases": {
+    "0.9.87": {
+      "date": "2025-09-26",
+      "notes": [
+        "Updated version for testing auto-updater functionality",
+        "Fixed Ollama detection in production builds",
+        "Improved HTTP-first detection strategy for Ollama models",
+        "Enhanced auto-updater with proper signature verification",
+        "Fixed AppleDouble file handling in update archives"
+      ]
+    },
     "0.9.71": {
       "date": "2025-08-13",
       "notes": [
