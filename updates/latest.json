@@ -1,15 +1,15 @@
 {
   "version": "0.9.83",
-  "notes": "Test update with improved error handling - signature verification disabled",
-  "pub_date": "2025-09-25T07:30:00Z",
+  "notes": "Test update with proper signature verification enabled",
+  "pub_date": "2025-09-25T08:00:00Z",
   "platforms": {
     "darwin-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.82-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldSWTRKaFRZQmJER1VrQzlhaWFLOExCM3VoV1gxTW1IU0ZQQTZKTXN6U0MwMDEzcThyc3R3a0pmVkJrdWFhN1JCOTNpaEg5c1JhSGY0QWxROENlbTBxbFhpVTNWUWViWVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjE1Mzk5ODg3CWZpbGU6Li4vLi4vdGF1cmktdXBkYXRlci90ZXN0L2ZpeHR1cmUvYXJjaGl2ZXMvYXJjaGl2ZS50YXIuZ3oKczI0cUxjM2YvMGdpMDI1ejE3ZnREQTNtdlBwR2xydW5rVFBvcUxVcUt2dVpxZkpPd1ZLT1Z1K0hZS0hjRVk3Ylg4UVQxWEtWMHJ4ZUwwSXcvZjlaQmc9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUxOVDhLb1hWbWZXUnZuU3ZIN25QZHE1Zks3cmxoNDNORTFwWHlnU3pvYTNMNjdRRFBHNkZiYkpyRXRieGVYU0pCR0RGdWliTm9PYmFrV3MxT2w5RndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4Nzg3NjE5CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS44Mi11bml2ZXJzYWwuYXBwLnRhci5negowQm5Oa1BUWDR6dTJGK0lTYmhEVnRYcVNzNzdYZkN4WTRmSjFFOWM4Qk5uWmFTSjBrYXNjMXhaMXhMV0tmK1RkRURnOC9HVHVZUE5XZVVBRmsxWkxCUT09Cg=="
     },
     "darwin-aarch64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.82-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldSWTRKaFRZQmJER1VrQzlhaWFLOExCM3VoV1gxTW1IU0ZQQTZKTXN6U0MwMDEzcThyc3R3a0pmVkJrdWFhN1JCOTNpaEg5c1JhSGY0QWxROENlbTBxbFhpVTNWUWViWVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjE1Mzk5ODg3CWZpbGU6Li4vLi4vdGF1cmktdXBkYXRlci90ZXN0L2ZpeHR1cmUvYXJjaGl2ZXMvYXJjaGl2ZS50YXIuZ3oKczI0cUxjM2YvMGdpMDI1ejE3ZnREQTNtdlBwR2xydW5rVFBvcUxVcUt2dVpxZkpPd1ZLT1Z1K0hZS0hjRVk3Ylg4UVQxWEtWMHJ4ZUwwSXcvZjlaQmc9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUxOVDhLb1hWbWZXUnZuU3ZIN25QZHE1Zks3cmxoNDNORTFwWHlnU3pvYTNMNjdRRFBHNkZiYkpyRXRieGVYU0pCR0RGdWliTm9PYmFrV3MxT2w5RndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4Nzg3NjE5CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS44Mi11bml2ZXJzYWwuYXBwLnRhci5negowQm5Oa1BUWDR6dTJGK0lTYmhEVnRYcVNzNzdYZkN4WTRmSjFFOWM4Qk5uWmFTSjBrYXNjMXhaMXhMV0tmK1RkRURnOC9HVHVZUE5XZVVBRmsxWkxCUT09Cg=="
     },
     "windows-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.82_x64-setup.exe",
