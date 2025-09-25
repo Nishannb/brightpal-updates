@@ -4,11 +4,11 @@
   "pub_date": "2025-09-25T05:20:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal AI_0.9.79_universal.dmg",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.79-universal.app.tar.gz",
       "signature": "placeholder_macos_signature"
     },
     "darwin-aarch64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal AI_0.9.79_universal.dmg",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.79-universal.app.tar.gz",
       "signature": "placeholder_macos_signature"
     },
     "windows-x86_64": {
