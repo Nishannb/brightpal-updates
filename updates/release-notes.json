@@ -1,6 +1,6 @@
 {
   "releases": {
-    "0.9.87": {
+    "0.9.86": {
       "date": "2025-09-26",
       "notes": [
         "Updated version for testing auto-updater functionality",
