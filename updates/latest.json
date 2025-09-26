@@ -5,11 +5,11 @@
   "platforms": {
     "darwin-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.87-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IEJyaWdodFBhbCBBSSAwLjkuODYgdXBkYXRlCm80L0Zmak1PNVc5QnhlbUs5b0x6OG1rYXdxYlVrbHI2cWRrWCtrc2l2VVY1ek94bVpZZHBhaGhseEp5VTl1RUh6VnN3Wml1c1c4RWVkTGJZY2NhN0FRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUVNYWpudkl5YVNxSktJQ2NXZU9QQk5IcXNtbllqTk9pWkErWStsYkJ5Wm1WTXBTWndOb0FnNUpYV1AzRWI1SzVpVm1ualJ2WDk4NDBlcVZrVHVRN1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4ODgzNjY5CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS44Ny11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKR0hWVy9XNTg4MVlJT2VSNmFSRWwwcXdqVVlMMzZiWHkvbGIwTjVuQ2hEaGVLT2Z2Q1kzNHBFQi9ReG5welpjSStrUmp0UXQwRk41ZW9kTUhISHNHQnc9PQo="
     },
     "darwin-aarch64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.87-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IEJyaWdodFBhbCBBSSAwLjkuODYgdXBkYXRlCm80L0Zmak1PNVc5QnhlbUs5b0x6OG1rYXdxYlVrbHI2cWRrWCtrc2l2VVY1ek94bVpZZHBhaGhseEp5VTl1RUh6VnN3Wml1c1c4RWVkTGJZY2NhN0FRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUVNYWpudkl5YVNxSktJQ2NXZU9QQk5IcXNtbllqTk9pWkErWStsYkJ5Wm1WTXBTWndOb0FnNUpYV1AzRWI1SzVpVm1ualJ2WDk4NDBlcVZrVHVRN1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4ODgzNjY5CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS44Ny11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKR0hWVy9XNTg4MVlJT2VSNmFSRWwwcXdqVVlMMzZiWHkvbGIwTjVuQ2hEaGVLT2Z2Q1kzNHBFQi9ReG5welpjSStrUmp0UXQwRk41ZW9kTUhISHNHQnc9PQo="
     },
     "windows-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.87_x64-setup.exe",
