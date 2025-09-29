@@ -1,31 +1,5 @@
 {
   "releases": {
-    "0.9.91": {
-      "date": "2025-09-29",
-      "notes": [
-        "Version 0.9.91 for auto-updater testing",
-        "Continued testing with original minisign key",
-        "Small improvements and bug fixes"
-      ]
-    },
-    "0.9.90": {
-      "date": "2025-09-29",
-      "notes": [
-        "Version 0.9.90 for auto-updater testing",
-        "Fixed signature verification with original minisign key",
-        "Improved update system reliability"
-      ]
-    },
-    "0.9.86": {
-      "date": "2025-09-26",
-      "notes": [
-        "Updated version for testing auto-updater functionality",
-        "Fixed Ollama detection in production builds",
-        "Improved HTTP-first detection strategy for Ollama models",
-        "Enhanced auto-updater with proper signature verification",
-        "Fixed AppleDouble file handling in update archives"
-      ]
-    },
     "0.9.71": {
       "date": "2025-08-13",
       "notes": [
