@@ -1,22 +1,19 @@
 {
   "version": "0.9.92",
-  "notes": "Update to version 0.9.92 - see release-notes.json for detailed changelog",
-  "pub_date": "2025-09-29T16:34:13Z",
+  "notes": "Version 0.9.92 for auto-updater testing with original minisign key",
+  "pub_date": "2025-09-30T01:35:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.9.92_universal.dmg",
-      "signature": "placeholder_macos_signature",
-      "size": 26100285
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.92-universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFlGN1hhSjg0dTIxNUhtamJRZTFBd0xsYmo5OGJIK0N2aFhNenJadFV4TFgxaGx6azZ1R0VnNzBmdEZwOGZKeE96TXFsZkRRaWZDTCsweHJMMHkrVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTYzNDc4CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45Mi11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKTjIrZmRkU3NVc2dqWEtPVjNsdzFXam1hWEJKbGxZSzFuYnZMQ2thamJCdjJSMWR4MU9BdGZNUEVCMjF2WTZ5ei9yUC94dmVjN21hQ0paY3Vvd0xXRFE9PQo="
     },
     "darwin-aarch64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal AI_0.9.92_aarch64.dmg",
-      "signature": "placeholder_macos_signature",
-      "size": 0
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.92-universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFlGN1hhSjg0dTIxNUhtamJRZTFBd0xsYmo5OGJIK0N2aFhNenJadFV4TFgxaGx6azZ1R0VnNzBmdEZwOGZKeE96TXFsZkRRaWZDTCsweHJMMHkrVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTYzNDc4CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45Mi11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKTjIrZmRkU3NVc2dqWEtPVjNsdzFXam1hWEJKbGxZSzFuYnZMQ2thamJCdjJSMWR4MU9BdGZNUEVCMjF2WTZ5ei9yUC94dmVjN21hQ0paY3Vvd0xXRFE9PQo="
     },
     "windows-x86_64": {
-      "url": "https://nishanbaral.github.io/brightpal-updates/updates/BrightPal_0.9.92_x64-setup.exe",
-      "signature": "placeholder_windows_signature",
-      "size": 0
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.92_x64-setup.exe",
+      "signature": "placeholder_windows_signature"
     }
   }
 }
