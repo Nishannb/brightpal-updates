@@ -1,19 +1,19 @@
 {
-  "version": "0.9.92",
-  "notes": "Version 0.9.92 for auto-updater testing with original minisign key",
-  "pub_date": "2025-09-30T01:35:00Z",
+  "version": "0.9.93",
+  "notes": "Version 0.9.93 for auto-updater testing with original minisign key",
+  "pub_date": "2025-09-30T02:35:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.92-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVRYVdvU0MrdUgwaTJ0ZmtUZXJaWHNpZnJUVlZUM2I0ckRKZmkvUG9hdVVLdk5EaTNMMloxR2FUMEM4QzRuNm96TkVZQjQwVjd4MzgzTm1XNkhOYWt5ZktoRVB3M2dFYlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTY0NTE2CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45Mi11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKMzc5Tyt5RXlxQ2pxS203VkdPREFoeEZYYjN2OCtlbEJ5NUJGR0VZUWZScFRFallPbzJCNWdBelp4VHFwQ2JVR01xWStadHFEd05VdzJVUDZKdVB2Q1E9PQo="
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.93-universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTY2NTczCWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45My11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKU2hZRUI3cVZYRVZKc0JVdEJnMzMzMFNEczJWa3NYdktkS2ROYTJJRWVTaUFiRHBQRHFUL2Jmbkk5UjIxQjIwZXgrSzRScFVYUUZNN1FIaEU4bHMzQ1E9PQo="
     },
     "darwin-aarch64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.92-universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVRYVdvU0MrdUgwaTJ0ZmtUZXJaWHNpZnJUVlZUM2I0ckRKZmkvUG9hdVVLdk5EaTNMMloxR2FUMEM4QzRuNm96TkVZQjQwVjd4MzgzTm1XNkhOYWt5ZktoRVB3M2dFYlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTY0NTE2CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45Mi11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKMzc5Tyt5RXlxQ2pxS203VkdPREFoeEZYYjN2OCtlbEJ5NUJGR0VZUWZScFRFallPbzJCNWdBelp4VHFwQ2JVR01xWStadHFEd05VdzJVUDZKdVB2Q1E9PQo="
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.93-universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVTcWowcDhla3FidFNLSzJxaWs1SkptRW0wcEVKNmlwNjNKQis5aVhGbzZYTTFWMERpVFZORDZXd2hRZDd6dEpmL1BSdnR0dTJJZ1VWdG10eGRycWZsSjN6L3BJVVM0WVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTY2NTczCWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45My11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKU2hZRUI3cVZYRVZKc0JVdEJnMzMzMFNEczJWa3NYdktkS2ROYTJJRWVTaUFiRHBQRHFUL2Jmbkk5UjIxQjIwZXgrSzRScFVYUUZNN1FIaEU4bHMzQ1E9PQo="
     },
     "windows-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.92_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIG1pbmlzaWduIHNlY3JldCBrZXkKUlVRYVdvU0MrdUgwaTJ0ZmtUZXJaWHNpZnJUVlZUM2I0ckRKZmkvUG9hdVVLdk5EaTNMMloxR2FUMEM4QzRuNm96TkVZQjQwVjd4MzgzTm1XNkhOYWt5ZktoRVB3M2dFYlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MTY0NTE2CWZpbGU6QnJpZ2h0UGFsLUFJLTAuOS45Mi11bml2ZXJzYWwuYXBwLnRhci5negloYXNoZWQKMzc5Tyt5RXlxQ2pxS203VkdPREFoeEZYYjN2OCtlbEJ5NUJGR0VZUWZScFRFallPbzJCNWdBelp4VHFwQ2JVR01xWStadHFEd05VdzJVUDZKdVB2Q1E9PQo="
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.93_x64-setup.exe",
+      "signature": "placeholder_windows_signature"
     }
   }
 }
