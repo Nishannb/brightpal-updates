@@ -1,5 +1,14 @@
 {
   "releases": {
+    "0.9.94": {
+      "date": "2025-09-30",
+      "notes": [
+        "Version 0.9.94 for auto-updater testing",
+        "Continued testing with original minisign key",
+        "Proper version increment for testing",
+        "Small improvements and bug fixes"
+      ]
+    },
     "0.9.93": {
       "date": "2025-09-30",
       "notes": [
