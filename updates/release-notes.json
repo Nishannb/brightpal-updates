@@ -1,5 +1,15 @@
 {
   "releases": {
+    "0.9.101": {
+      "date": "2025-09-30",
+      "notes": [
+        "Version 0.9.101 for auto-updater testing following signing_howto.md process",
+        "Fixed build process to use tauri.prod.conf.json",
+        "Created proper .app.tar.gz files instead of DMG files",
+        "Signed with original minisign key using tauri signer",
+        "Updated latest.json with correct .app.tar.gz URLs and signatures"
+      ]
+    },
     "0.9.100": {
       "date": "2025-09-30",
       "notes": [
