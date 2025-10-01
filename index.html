@@ -131,6 +131,56 @@
             height: 1px;
             background: var(--border);
         }
+        .integrations {
+            padding: 60px 0 40px 0;
+        }
+        .integrations h2 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: var(--text);
+        }
+        .integration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+            justify-items: center;
+        }
+        .integration-item {
+            text-align: center;
+            padding: 32px 24px;
+            background: #f8fafc;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+        }
+        .integration-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px auto;
+            display: block;
+        }
+        .integration-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .integration-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .integration-item p {
+            color: var(--muted);
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        .integration-item strong {
+            color: var(--text);
+        }
         footer {
             margin-top: 40px;
             padding: 24px 0 48px 0;
@@ -155,21 +205,55 @@
                 <p class="subline">Study course materials, PDFs, and books with AI assistance. Use local models or connect your favorite APIs — all for a one-time $20 fee, no subscriptions.</p>
                 <div class="ctas">
                     <a id="btn-mac" class="btn" href="#" download>
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
                         <span>Download for macOS</span>
                     </a>
                     <a id="btn-windows" class="btn secondary" href="#" aria-disabled="true">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5.5A2.5 2.5 0 0 1 5.5 3H9v3H3V5.5zm0 5.5A2.5 2.5 0 0 1 5.5 8H9v8H5.5A2.5 2.5 0 0 1 3 13.5v-2.5zM21 5.5A2.5 2.5 0 0 0 18.5 3H15v3h6V5.5zm0 5.5A2.5 2.5 0 0 0 18.5 8H15v8h3.5a2.5 2.5 0 0 0 2.5-2.5v-2.5z"/></svg>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 12V6.75l6-1.32v6.48L3 12zm17-9v8.75l-10 .15V5.21L20 3zM3 13l6 .09v6.81l-6-1.15V13zm17 .25V22l-10-1.91v-6.75l10 .15z"/></svg>
                         <span>Download for Windows</span>
                     </a>
                     <div class="coming-soon">Windows installer is coming soon</div>
                 </div>
                 <div class="divider"></div>
             </section>
+            <section class="integrations">
+                <h2>Integrations</h2>
+                <div class="integration-grid">
+                    <div class="integration-item">
+                        <div class="integration-icon">
+                            <img src="public/ollama.png" alt="Ollama logo">
+                        </div>
+                        <h3>Ollama Integration</h3>
+                        <p>Run AI models locally on your computer with Ollama. No internet required, complete privacy.</p>
+                    </div>
+                    <div class="integration-item">
+                        <div class="integration-icon">
+                            <img src="public/google.png" alt="Google logo">
+                        </div>
+                        <h3>Google Studio API</h3>
+                        <p>Connect your Google Studio API key to use Gemini models. <strong>Free for students for 1 year!</strong></p>
+                    </div>
+                    <div class="integration-item">
+                        <div class="integration-icon">
+                            <img src="public/openrouter.png" alt="OpenRouter logo">
+                        </div>
+                        <h3>OpenRouter API</h3>
+                        <p>Connect your OpenRouter API key to access multiple AI models from various providers with competitive pricing.</p>
+                    </div>
+                    <div class="integration-item">
+                        <div class="integration-icon">
+                            <img src="public/openai.png" alt="OpenAI logo">
+                        </div>
+                        <h3>OpenAI API</h3>
+                        <p>Connect your OpenAI API key to use GPT models directly. Access the latest and most powerful AI models.</p>
+                    </div>
+                </div>
+            </section>
         </div>
         <footer>
             <div id="version">Version • <a href="updates/release-notes.json">Release notes</a></div>
             <div style="margin-top:8px">© 2025 BrightPal AI</div>
+            <div style="margin-top:4px; color: #9ca3af; font-size: 13px;"><a href="https://github.com/Nishannb/brightpalAI" style="color: inherit; text-decoration: none;">Built on top of open source readest</a></div>
         </footer>
     </div>
     <script>
