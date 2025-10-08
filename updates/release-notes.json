@@ -1,5 +1,16 @@
 {
   "releases": {
+    "0.9.102": {
+      "date": "2025-01-09",
+      "notes": [
+        "Updated auto-updater system with improved signing process",
+        "Enhanced code modifications and bug fixes",
+        "Improved stability and performance",
+        "Fixed DMG download link to serve latest version",
+        "Updated signing process to use original keys consistently",
+        "Built and signed with version 0.9.102 following signing_howto.md process"
+      ]
+    },
     "0.9.101": {
       "date": "2025-09-30",
       "notes": [
