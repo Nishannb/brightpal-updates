@@ -420,6 +420,63 @@
             .contact-details {
                 font-size: 13px;
             }
+            .reviews {
+                padding: 40px 0 30px 0;
+            }
+            .reviews h2 {
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
+            .reviews-carousel {
+                grid-template-columns: 1fr !important;
+                gap: 16px;
+                padding: 0 16px;
+                max-width: 100%;
+            }
+            .review-card {
+                padding: 20px 16px;
+                margin: 0;
+                max-width: 100%;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .review-quote {
+                font-size: 14px;
+                line-height: 1.5;
+                word-wrap: break-word;
+            }
+            .review-header {
+                font-size: 11px;
+                margin-bottom: 12px;
+            }
+            .author-name {
+                font-size: 14px;
+            }
+            .author-title {
+                font-size: 12px;
+            }
+            .quote-icon {
+                font-size: 32px;
+                bottom: 12px;
+                right: 12px;
+            }
+            .reviews-pagination {
+                margin-top: 30px;
+            }
+            .trusted-by {
+                padding: 30px 0;
+            }
+            .trusted-text {
+                font-size: 14px;
+                margin-bottom: 24px;
+            }
+            .university-logos {
+                gap: 20px;
+                padding: 0 16px;
+            }
+            .university-logo {
+                height: 55px;
+            }
         }
         footer {
             margin-top: 40px;
@@ -477,6 +534,163 @@
         .footer-links a:hover {
             color: var(--primary) !important;
         }
+        .trusted-by {
+            padding: 40px 0;
+            text-align: center;
+            background: white;
+        }
+        .trusted-text {
+            font-size: 16px;
+            color: var(--muted);
+            margin-bottom: 32px;
+            font-weight: 500;
+        }
+        .university-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .university-logo {
+            height: 55px;
+            width: auto;
+            opacity: 0.7;
+            transition: opacity 0.2s ease;
+            filter: grayscale(100%);
+        }
+        .university-logo:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+        .reviews {
+            padding: 60px 0 40px 0;
+            background: #f8fafc;
+        }
+        .reviews h2 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: var(--text);
+        }
+        .reviews-carousel {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        @media (min-width: 768px) {
+            .reviews-carousel {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .reviews-carousel {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+            }
+        }
+        @media (max-width: 480px) {
+            .reviews-carousel {
+                padding: 0 12px;
+            }
+            .review-card {
+                padding: 16px 12px;
+            }
+            .review-quote {
+                font-size: 13px;
+            }
+        }
+        .review-card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px 24px;
+            border: 1px solid var(--border);
+            position: relative;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .review-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        .review-header {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+        .review-quote {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text);
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+        .review-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .author-info {
+            flex: 1;
+        }
+        .author-name {
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .author-title {
+            font-size: 13px;
+            color: var(--muted);
+        }
+        .quote-icon {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--primary);
+            opacity: 0.1;
+            font-family: serif;
+        }
+        .reviews-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 40px;
+        }
+        .pagination-btn {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 16px;
+            color: var(--text);
+        }
+        .pagination-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        .pagination-info {
+            font-size: 14px;
+            color: var(--muted);
+            font-weight: 500;
+        }
     </style>
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -514,6 +728,21 @@
                     </a>
                 </div>
                 <div class="divider"></div>
+            </section>
+            <section class="trusted-by">
+                <p class="trusted-text">Trusted by students from more than 12 universities</p>
+                <div class="university-logos">
+                    <img src="public/uni/uni1.png" alt="University 1" class="university-logo">
+                    <img src="public/uni/uni2.png" alt="University 2" class="university-logo">
+                    <img src="public/uni/uni3.png" alt="University 3" class="university-logo">
+                    
+                    <img src="public/uni/uni5.png" alt="University 5" class="university-logo">
+                    <img src="public/uni/uni6.png" alt="University 6" class="university-logo">
+                    <img src="public/uni/uni7.png" alt="University 7" class="university-logo">
+                    <img src="public/uni/uni8.png" alt="University 8" class="university-logo">
+                    <img src="public/uni/uni9.png" alt="University 9" class="university-logo">
+                    <img src="public/uni/uni4.png" alt="University 4" class="university-logo">
+                </div>
             </section>
             <section class="demo-section">
                 <h2>See BrightPal in Action</h2>
@@ -562,6 +791,82 @@
                         <h3>OpenAI API</h3>
                         <p>Connect your OpenAI API key to use GPT models directly. Access the latest and most powerful AI models.</p>
                     </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <h2>What Students Say</h2>
+                <div class="reviews-carousel">
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"BrightPal has made my entire study workflow so much easier. I used to have all my PDFs scattered around in different folders, but now everything's in one place. The AI summarization is surprisingly accurate, and the note-taking on the same app means I don't have to switch tabs anymore. My productivity easily went up 10x."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Yuto S.</div>
+                                <div class="author-title">Keio University</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"I activated Google's Gemini student offer (1 year free API access) and plugged the key into BrightPal — it works perfectly! I can use Gemini models right inside the app for summarizing lectures or generating study notes. It's super smooth and feels like my own personal assistant."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Aisha K.</div>
+                                <div class="author-title">University of Tokyo</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"The Ollama integration is the best part in my opinion. I'm able to use local models directly without sending data anywhere — that's a brilliant idea for students. It's cost-effective, fast, and reliable. I used to pay monthly for other AI tools, but BrightPal gives me all that power locally with a one-time payment."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Takuya M.</div>
+                                <div class="author-title">Kyoto University</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"BrightPal is such a convenient way to organize my course PDFs and notes. The AI highlighting and summarizing features help me review faster before exams. I also used the free Google Gemini student API offer — just added my key to BrightPal and started using Gemini right inside."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Sarah L.</div>
+                                <div class="author-title">Waseda University</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"The price is honestly what convinced me — a one-time $20 fee instead of a monthly subscription is such a relief for students. If you have a decent laptop, definitely integrate it with Ollama, and you've got yourself a perfect offline AI study setup. No internet dependency, no extra costs."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Hiroshi N.</div>
+                                <div class="author-title">Osaka University</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">STUDENT REVIEW</div>
+                        <div class="review-quote">"BrightPal has become my main study hub. I upload all my PDFs, take notes beside them, highlight key parts, and use the AI summarizer — all in the same app. No more switching between tabs or apps. It just makes studying smoother and faster."</div>
+                        <div class="review-author">
+                            <div class="author-info">
+                                <div class="author-name">Emily R.</div>
+                                <div class="author-title">Ritsumeikan University</div>
+                            </div>
+                        </div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                </div>
+                <div class="reviews-pagination">
+                    <button class="pagination-btn prev" onclick="previousReviews()">←</button>
+                    <span class="pagination-info">1/2</span>
+                    <button class="pagination-btn next" onclick="nextReviews()">→</button>
                 </div>
             </section>
         </div>
@@ -640,6 +945,64 @@
                 }
             })
             .catch(() => {});
+        
+        // Reviews carousel functionality
+        let currentReviewPage = 1;
+        const reviewsPerPage = 3;
+        const totalReviews = 6; // We have 6 reviews total
+        const totalPages = Math.ceil(totalReviews / reviewsPerPage);
+        
+        function showReviews(page) {
+            const carousel = document.querySelector('.reviews-carousel');
+            const paginationInfo = document.querySelector('.pagination-info');
+            const reviewCards = carousel.querySelectorAll('.review-card');
+            
+            // Hide all cards first
+            reviewCards.forEach(card => {
+                card.style.display = 'none';
+            });
+            
+            // Show cards for current page
+            const startIndex = (page - 1) * reviewsPerPage;
+            const endIndex = Math.min(startIndex + reviewsPerPage, totalReviews);
+            
+            for (let i = startIndex; i < endIndex; i++) {
+                if (reviewCards[i]) {
+                    reviewCards[i].style.display = 'block';
+                }
+            }
+            
+            paginationInfo.textContent = `${page}/${totalPages}`;
+            
+            // Update button states
+            const prevBtn = document.querySelector('.pagination-btn.prev');
+            const nextBtn = document.querySelector('.pagination-btn.next');
+            
+            prevBtn.disabled = page === 1;
+            nextBtn.disabled = page === totalPages;
+            
+            prevBtn.style.opacity = page === 1 ? '0.5' : '1';
+            nextBtn.style.opacity = page === totalPages ? '0.5' : '1';
+        }
+        
+        function previousReviews() {
+            if (currentReviewPage > 1) {
+                currentReviewPage--;
+                showReviews(currentReviewPage);
+            }
+        }
+        
+        function nextReviews() {
+            if (currentReviewPage < totalPages) {
+                currentReviewPage++;
+                showReviews(currentReviewPage);
+            }
+        }
+        
+        // Initialize reviews
+        document.addEventListener('DOMContentLoaded', function() {
+            showReviews(1);
+        });
         
         // Copy trial code function
         function copyCode() {
