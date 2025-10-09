@@ -1,7 +1,7 @@
 {
-  "version": "0.9.102",
-  "notes": "Version 0.9.102 with code modifications and updated auto-updater following signing_howto.md process",
-  "pub_date": "2025-01-09T00:20:00Z",
+  "version": "0.9.109",
+  "notes": "Version 0.9.109 with Windows updater fix - corrected file URL and valid signature",
+  "pub_date": "2025-01-09T12:00:00Z",
   "platforms": {
     "darwin-x86_64": {
       "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.102-universal.app.tar.gz",
@@ -12,8 +12,8 @@
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUVhaUJXaDdNZXpJNlZmdzRPY0VwVzRlbkVUYnlCbThLdzNkNXB2M0NVUEJmTG1NS1YwL1NOVjh1VlE2WThRT0JPbzhJTmIxbFp2SUVIbXI4cUk3TXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5OTM2ODYwCWZpbGU6QnJpZ2h0UGFsIEFJLmFwcC50YXIuZ3oKaDNKZm1ITHd1ZUQ5WlNxb1V6N1FxMHhxdkFuSENZNFZLZW5VdVZTTVV5Sy9DNE5aSGhTK3ptajg0Zm1nbHBhVVVuUVRnVkU3eXF3VzNmUDcvbWR3QXc9PQo="
     },
     "windows-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.95_x64-setup.exe",
-      "signature": "placeholder_windows_signature"
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.109_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUdFVDlPalZMMDI5UGh0QkhNaXNKMEhOTnl1UWN3UUp5OERmbHpRT0V5VGZka0lRQmdoTmUwNnBMdDg5RHI1dmZUa0x3czViN1pLUFVXVlFsc09ZS2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5OTg2MTIwCWZpbGU6QnJpZ2h0UGFsIEFJXzAuOS4xMDlfeDY0LXNldHVwLmV4ZQpqVHNGOHNtemVXb0JEd2JNMmZWb3RnMm5sM1JYNXhMUWtUaEUwRXVETjBSOFVBKzFNMVhjOEdrSHlXZTJ4dHgxVzNOQm5EcVprL2hWYUk5N0N6aWlCQT09Cg=="
     }
   }
 }
