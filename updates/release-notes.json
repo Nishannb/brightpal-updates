@@ -1,5 +1,12 @@
 {
   "releases": {
+    "0.9.111": {
+      "date": "2025-01-16",
+      "notes": [
+        "Fixed update checking system with correct GitHub Pages URLs",
+        "Improved build process and signing workflow for better reliability"
+      ]
+    },
     "0.9.102": {
       "date": "2025-01-09",
       "notes": [
