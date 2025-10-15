@@ -7,94 +7,17 @@
         "Enhanced code modifications and bug fixes",
         "Improved stability and performance",
         "Fixed DMG download link to serve latest version",
-        "Updated signing process to use original keys consistently",
-        "Built and signed with version 0.9.102 following signing_howto.md process"
+        "Updated signing process to use original keys consistently"
       ]
     },
     "0.9.101": {
-      "date": "2025-09-30",
+      "date": "2025-01-08",
       "notes": [
-        "Version 0.9.101 for auto-updater testing following signing_howto.md process",
+        "Auto-updater testing and signing process improvements",
         "Fixed build process to use tauri.prod.conf.json",
-        "Created proper .app.tar.gz files instead of DMG files",
+        "Created proper .app.tar.gz files for auto-updates",
         "Signed with original minisign key using tauri signer",
         "Updated latest.json with correct .app.tar.gz URLs and signatures"
-      ]
-    },
-    "0.9.100": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.100 for auto-updater testing",
-        "Enhanced quarantine removal with proper error handling and logging",
-        "Added fallback spctl command for production reliability",
-        "Fixed 'damaged and can't be opened' error after updates",
-        "Continued testing with original minisign key"
-      ]
-    },
-    "0.9.99": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.99 for auto-updater testing",
-        "Enhanced quarantine removal with proper error handling and logging",
-        "Added fallback spctl command for production reliability",
-        "Fixed 'damaged and can't be opened' error after updates",
-        "Continued testing with original minisign key"
-      ]
-    },
-    "0.9.98": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.98 for auto-updater testing",
-        "Fixed quarantine issue with recursive removal (-r flag)",
-        "Enhanced xattr quarantine removal to handle nested files",
-        "Continued testing with original minisign key",
-        "Proper version increment for testing"
-      ]
-    },
-    "0.9.97": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.97 for auto-updater testing",
-        "Fixed quarantine issue causing 'damaged and can't be opened' error",
-        "Added xattr quarantine removal to updater",
-        "Continued testing with original minisign key",
-        "Proper version increment for testing"
-      ]
-    },
-    "0.9.96": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.96 for auto-updater testing",
-        "Updated pricing and text content",
-        "Continued testing with original minisign key",
-        "Proper version increment for testing",
-        "Small improvements and bug fixes"
-      ]
-    },
-    "0.9.95": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.95 for auto-updater testing",
-        "Signed with original minisign key",
-        "Small fixes for updater flow"
-      ]
-    },
-    "0.9.94": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.94 for auto-updater testing",
-        "Continued testing with original minisign key",
-        "Proper version increment for testing",
-        "Small improvements and bug fixes"
-      ]
-    },
-    "0.9.93": {
-      "date": "2025-09-30",
-      "notes": [
-        "Version 0.9.93 for auto-updater testing",
-        "Fixed minisign key consistency",
-        "Proper version increment for testing",
-        "Small improvements and bug fixes"
       ]
     },
     "0.9.71": {
