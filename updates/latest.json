@@ -1,16 +1,16 @@
 {
-  "version": "0.9.111",
-  "notes": "Update to version 0.9.111 - Latest build with improvements and bug fixes",
-  "pub_date": "2025-01-16T01:56:00Z",
+  "version": "0.9.112",
+  "notes": "Update to version 0.9.112 - Fixed Windows Ollama connectivity issue with Tauri HTTP plugin",
+  "pub_date": "2025-01-16T02:30:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.111-universal.app.tar.gz",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal-AI-0.9.112-universal.app.tar.gz",
       "signature": "MIIFpDCCBIygAwIBAgIIVyWOYMWlsWMwDQYJKoZIhvcNAQELBQAweTEtMCsGA1UEAwwkRGV2ZWxvcGVyIElEIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSYwJAYDVQQLDB1BcHBsZSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTETMBEGA1UECgwKQXBwbGUgSW5jLjELMAkGA1UEBhMCVVMwHhcNMjUwODIxMDMxMDAyWhcNMjcwMjAxMjIxMjE1WjCBkzEaMBgGCgmSJomT8ixkAQEMCkQ4VjVDNzU0QjYxPDA6BgNVBAMMM0RldmVsb3BlciBJRCBBcHBsaWNhdGlvbjogTmlzaGFuIEJhcmFsIChEOFY1Qzc1NEI2KTETMBEGA1UECwwKRDhWNUM3NTRCNjEVMBMGA1UECgwMTmlzaGFuIEJhcmFsMQswCQYDVQQGEwJKUDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANfa38EQO3Xmd0WGR+jV4nM3SRVvTfv1JIc4YONDsXdsL9U/jPWgslT4U3oTIbCQKYqjJiKdLSX2cMYTRq4KQSRIl7LQzJs6T6Sdp4+ifWkXN0xsC2CkgwXbWBhTySOkS1a8KcjdmAOqZAOMpdlhNVTPVMAG2C1/ySCy18bkD4SURpGiXrOTuE28ua/gkApfEWZOQdU3JihwbQK+Mjus9ImlbxOtLyRpf1R9dCKcnoAFagT+3AieD0jJcviMdUnLwWTL+tTOtWwCB9EBPxQx1rUffq6f4cYCl7TMHyMPi9wWMbFn1wePYV77JnZuyCEvJi9mEje9HNZQ9OkwqR4PpoMCAwEAAaOCAhMwggIPMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUVxftos/cfJihEOD8voctLPLjF1QwQAYIKwYBBQUHAQEENDAyMDAGCCsGAQUFBzABhiRodHRwOi8vb2NzcC5hcHBsZS5jb20vb2NzcDAzLWRldmlkMDYwggEdBgNVHSAEggEUMIIBEDCCAQwGCSqGSIb3Y2QFATCB/jCBwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjA2BggrBgEFBQcCARYqaHR0cDovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3JpdHkvMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBQSCgrTzuki57Re9R0SbVfxyKIhljAOBgNVHQ8BAf8EBAMCB4AwHwYKKoZIhvdjZAYBIQQRDA8yMDI1MDgyMTAwMDAwMFowEwYKKoZIhvdjZAYBDQEB/wQCBQAwDQYJKoZIhvcNAQELBQADggEBABb3Zledi8qoMuVx6weB+eUMYykQa/cSKyPLE2o/nDggaaLvkP720GqvJhYfAGJjrDf324IjZNKG093cHlrAIt67g/BnAS8VIGpHNAXdqgQdUd4/6vHszE33KSVMfv5XLw2GZbfGUBTPBfG20TLSbViE6OMvJ9iq7BI6v9bYDF2XyIT27S9MrryJY3F1adxzaPP/YByTbfR/Qe9V8R8p1sv6ynvGgv6up9u8gZncDWR9ZN7rkIEC35AwcsfgiuJbZXzLk9122rARZyczFHUJHTAsBLC2oaJUHw/LGRkh50A+6vGEpsHuTshAgrvv7dWsvbXiWAPDNa5p7xErYlRTDfU=",
       "size": 27038863
     },
     "windows-x86_64": {
-      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.111_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2V4TzZDWHBwVUVKN3dENUQxNGZGZlcvQysrRWdoQ1I0ZVA3Mi8wWm9MeVVsbEhGRldLcllSMEQ2TUE1RUI1RElmeFIrRm5tUUFiVllLNHhMVmVLaFRhQ0dZOFEvRGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYwNTQ3MDg3CWZpbGU6QnJpZ2h0UGFsIEFJXzAuOS4xMTFfeDY0LXNldHVwLmV4ZQo0OFA0UThRZWFuUEZ0UlhJeEJYZDZKQWo5REtnRC93TmV2ZWxpd3cxclpSbjhVZ09vSzNnaTJ5eXZFWGtid09pMUJwN3Q1b09KaTlodG05K2IwVFZDZz09Cg==",
+      "url": "https://nishannb.github.io/brightpal-updates/updates/BrightPal_0.9.112_x64-setup.exe",
+      "signature": "PLACEHOLDER_SIGNATURE_WILL_BE_UPDATED_AFTER_BUILD",
       "size": 10318626
     }
   }

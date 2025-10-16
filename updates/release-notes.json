@@ -1,5 +1,14 @@
 {
   "releases": {
+    "0.9.112": {
+      "date": "2025-01-16",
+      "notes": [
+        "Fixed Windows Ollama connectivity issue by implementing Tauri HTTP plugin",
+        "Resolved 'failed to fetch' error in AI provider settings on Windows production builds",
+        "Improved network request handling for localhost connections on Windows",
+        "Enhanced compatibility with Windows security policies for native applications"
+      ]
+    },
     "0.9.111": {
       "date": "2025-01-16",
       "notes": [
