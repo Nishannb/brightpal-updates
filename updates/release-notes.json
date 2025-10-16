@@ -6,7 +6,8 @@
         "Fixed Windows Ollama connectivity issue by implementing Tauri HTTP plugin",
         "Resolved 'failed to fetch' error in AI provider settings on Windows production builds",
         "Improved network request handling for localhost connections on Windows",
-        "Enhanced compatibility with Windows security policies for native applications"
+        "Enhanced compatibility with Windows security policies for native applications",
+        "Added additional debugging and error handling for better Windows stability (Patch 1)"
       ]
     },
     "0.9.111": {

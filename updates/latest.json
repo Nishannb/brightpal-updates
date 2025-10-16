@@ -1,6 +1,6 @@
 {
   "version": "0.9.112",
-  "notes": "Update to version 0.9.112 - Fixed Windows Ollama connectivity issue with Tauri HTTP plugin",
+  "notes": "Update to version 0.9.112 - Fixed Windows Ollama connectivity issue with Tauri HTTP plugin (Patch 1)",
   "pub_date": "2025-01-16T02:30:00Z",
   "platforms": {
     "darwin-x86_64": {
